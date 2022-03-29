@@ -23,11 +23,56 @@
     
 }
 
-h1 {
+main{
+    background-color: white;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid var(--cor04);
+    border-radius: 20px;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: var(--cor02);
+    font-family: var(--font1);
+
+}
+
+header {
+    background-color: var(--cor05);
+    padding: 10px;
+
+}
+
+header > h1 {
     font-family: 'porsche';
     padding: 30px;
     text-align: center;
     color: var(--cor01);
-    background-color: black;
     font-size: 3em;
+    border-radius: 0px 0px 20px 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.39);
+}
+
+header > p {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor01);
+}
+
+a:hover {
+    text-decoration: none;
+    text-align: center;
+    color: var(--cor01);
+    
 }
