@@ -5,6 +5,18 @@
     src: url(../fonts/911porscha/911porschav3.ttf) format('truetype');
 }
 
+:root{
+    --cor01: #BF1B39;
+    --cor02: #F2C879;
+    --cor03: #D9A05B;
+    --cor04: #592202;
+    --cor05: #F2F2F2;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -13,9 +25,9 @@
 
 h1 {
     font-family: 'porsche';
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-    color: white;
+    color: var(--cor01);
     background-color: black;
     font-size: 3em;
 }
