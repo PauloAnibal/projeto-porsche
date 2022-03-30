@@ -33,27 +33,34 @@ main{
     font-family: var(--fonte-padrao);
     text-align: justify;
     line-height: 1.5em;
+    margin-bottom: 15px;
+    
 }
 
 main > p {
     padding: 10px;
+    font-family: var('--fonte-padrao');
+    color: var(--cor04);
+    font-weight: bolder;
+    
 }
 
 html, body {
     min-height: 100vh;
     background-image: url('../imagens/porsche-mesclado.png');
     background-position: right center;
-    font-family: var(--font1);
     background-attachment: fixed;
     background-size: cover;
+    
     
 
 }
 
 header {
-    background-color: var(--cor05);
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor05));
     padding: 10px;
     padding-bottom: 20px;
+    margin-bottom: 15px;
 
 }
 
