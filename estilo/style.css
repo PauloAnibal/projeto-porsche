@@ -41,10 +41,11 @@ main > p {
 
 html, body {
     min-height: 100vh;
-    background-image: url('../imagens/porshce-vermelho-01-alterado.png');
+    background-image: url('../imagens/porsche-mesclado.png');
     background-position: right center;
     font-family: var(--font1);
     background-attachment: fixed;
+    background-size: cover;
     
 
 }
